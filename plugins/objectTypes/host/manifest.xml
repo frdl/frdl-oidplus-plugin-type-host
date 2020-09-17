@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<type>OIDplusObjectTypePlugin</type>
+
+	<info>
+		<name>Hostname (Domain)</name>
+		<author>Frdlweb</author>
+		<version />
+		<descriptionHTML />
+		<oid>1.3.6.1.4.1.37476.9000.108.1000.100027</oid>
+	</info>
+
+	<php>
+		<mainclass>OIDplusObjectTypePluginHost</mainclass>
+	</php>
+	
+</manifest>
