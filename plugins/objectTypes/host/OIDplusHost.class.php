@@ -99,9 +99,7 @@ class OIDplusHost extends OIDplusObject {
 
 	public function jsTreeNodeName(OIDplusObject $parent = null) {
 		if ($parent == null) return $this->objectTypeTitle();
-			//print_r($this->host);
-		
-		return $this->host;
+		return implode('.', array_reverse(explode('.', $this->host)));
 	}
 
 	public function defaultTitle() {
